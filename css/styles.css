@@ -1,0 +1,116 @@
+:root {
+    --orange-1: #e7932b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    background-color:rgba(127, 209, 50, 0.602);
+}
+
+.all-container {
+display: flex;
+width: 50%;
+flex-wrap: nowrap;
+box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.609);
+/* border: 2px solid black;  */
+}
+
+.all-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  
+    background-color:  #faf0d4;
+    font-family:  'Crimson Text', serif;
+    height: 720px; 
+}
+
+ /*--- Contenedor de la img de frutas ----*/
+.image-fruit.container {
+    display: flex;
+    border-bottom: 4px black;  
+}
+/* --- Contiene el logo "registro de comidas"---*/
+
+/* Es el cuerpo del login: Bienvenido, nombre usuario, botones, etc*/
+.login-form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.register-container {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.loginbutton {
+    background-color: var(--orange-1);
+    border: #FA8B00;
+    border-radius: 100px;
+    font-size: 1.2em;
+    padding: 10px 0px;
+    margin-top: 30px;
+    box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.609);
+   
+}
+
+.new-register {
+    font-size: 20px;
+}
+
+.registerbutton {
+    background-color: #F5B55D;
+    border: #F5B55D;
+    border-radius: 100px; 
+    font-size: 1.2em;
+    padding: 10px 15px;
+    box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.609);
+    
+}
+
+
+.welcome-title {
+    font-size: 30px;
+    margin: 1em 0 1.6em 0;
+}
+
+.input-label {
+  color: rgb(102, 102, 102);
+  margin: 0.1em 0;
+  font-size: 20px;
+  
+  
+}
+
+input {
+    border: 0px solid black;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+    font-size: 1em;
+    width: 300px;
+}
+
+input:link {
+    border: 0px solid black;
+    border-bottom: 3px solid black;
+}
+
+.orange-label {
+  color: orangered;
+  margin-top: 5px;
+}
