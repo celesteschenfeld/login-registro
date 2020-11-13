@@ -110,7 +110,14 @@ input:link {
     border-bottom: 3px solid black;
 }
 
-.orange-label {
-  color: orangered;
+ a, .orange-anchor {
+  color: orange;
+  font-size:17px;
   margin-top: 5px;
+  
+}
+
+a:hover{
+    text-decoration:none;
+    color:orangered;
 }
